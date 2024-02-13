@@ -7,7 +7,7 @@
         <div class="row g-3 justify-content-center">
             <div class="col-lg-10 text-center">
                 <div class="breadcrumb__content">
-                    <h2 class="hero__content-title text-capitalize t-text-white">
+                    <h2 class="hero__content-title text-capitalize t-text-dark">
                         {{ __($pageTitle) }}
                     </h2>
                     <ul class="list list--row breadcrumbs justify-content-center">
@@ -18,7 +18,7 @@
                         </li>
                         <li class="list--row__item breadcrumbs__item">
                             <span
-                                class=" t-link breadcrumbs__link text-uppercase t-text-white t-link--primary ">{{ __($pageTitle) }}</span>
+                                class=" t-link breadcrumbs__link text-uppercase t-text-dark t-link--dark">{{ __($pageTitle) }}</span>
                         </li>
                     </ul>
                 </div>

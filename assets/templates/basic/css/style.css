@@ -830,8 +830,8 @@ textarea {
 -----------------------------------------*/
 .custom--nice-select .nice-select {
     width: 100%;
-    height: 72px;
-    line-height: 72px;
+    height: 46px;
+    line-height: 46px;
     border-radius: 3px;
     background: transparent;
     font-size: 16px;
@@ -1319,6 +1319,7 @@ textarea {
 .btn--base {
     background: hsl(var(--base));
     color: #fff;
+    border-radius: 30px;
 }
 
 .btn--base:hover {
@@ -2569,13 +2570,13 @@ a.vf-info-list__text:hover {
 
 .breadcrumb {
     position: relative;
-    padding: 195px 0 50px;
+    padding: 90px 0 42px;
 }
 
 .breadcrumb::after {
     position: absolute;
     content: '';
-    background: rgba(0, 0, 0, .45);
+    /* background: rgba(0, 0, 0, .45); */
     width: 100%;
     height: 100%;
     left: 0;
@@ -2974,15 +2975,15 @@ a.vf-info-list__text:hover {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #fafafa;
-    border-radius: 3px;
+    border-radius: 30px;
+    border: 1px solid #c2c1c1;
 }
 
 .auth-form__input {
     display: block;
     width: 100%;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
     background: transparent;
 }
@@ -3017,7 +3018,10 @@ a.vf-info-list__text:hover {
     padding-right: 15px;
     font-size: 20px;
 }
-
+input:-webkit-autofill,s
+input:-webkit-autofill:focus {
+    background: transparent;
+}
 .auth-form__divider {
     overflow: hidden;
 }

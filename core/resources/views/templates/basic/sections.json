@@ -27,7 +27,7 @@
         }
     },
     "about": {
-        "builder": true,
+        "builder": false,
         "name": "About Us",
         "content": {
             "images": {
